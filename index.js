@@ -11,9 +11,9 @@ const styles = {
 
 }
 const App = () => {
-    const {textStyle,viewStyle} = styles
+    const {textStyle} = styles
     return (
-        <View>
+        <View  style={{flex:1}}>
         <Header style={textStyle} headerText={"Albmm"}/>
         <AlbumList />
         </View>
